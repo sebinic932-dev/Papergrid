@@ -1,0 +1,172 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+
+
+   
+.first_tab{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 100%;
+    gap: 5px;
+    border-bottom: 1px solid rgb(85, 84, 84);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.second_tab{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+
+    
+}
+.logo img{
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+    
+    
+}
+.second_tab ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 80px;
+    
+    
+}
+.icons{
+    margin-left: auto;  
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.icons i{
+    color: white;
+}
+.second_tab a{
+    text-decoration: none;
+    color: white;
+}
+.second_tab a:hover{
+    color: blue;
+
+}
+
+.gallery{
+    padding-top: 50px;
+    display: grid;
+    min-height: 100dvh;
+    place-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.cards img{
+    width: 350px;
+    height: 400px;
+
+}
+.about{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    padding-left: 180px;
+}
+.image img{
+    
+    width: 370px;
+    height: 500px;
+    margin-left: -110px;
+    padding-top: 70px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 110px;
+    margin-left: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.text button{
+    width: 125px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.footer_tab {
+  background-color: black;
+  display: flex;
+  justify-content: center;   /* center whole block */
+  padding: 40px 0;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* center all items horizontally */
+  text-align: center;
+  gap: 12px;
+}
+
+.contact ul {
+  list-style: none;   /* remove bullets */
+  padding: 0;         /* remove default left space */
+  margin: 0;
+}
+
+.contact li {
+  margin: 5px 0;
+
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact i {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.footer_tab2{
+    border-top: 1px solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;              /* space between copyright and links */
+    padding: 20px 40px;
+          
+}
+.copy2 ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.copy2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
